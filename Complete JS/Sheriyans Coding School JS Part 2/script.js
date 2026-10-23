@@ -28,6 +28,12 @@
 //      main.style.left = dets.clientX + "px";
 //  })
 
-document.querySelector(".nav").addEventListener("click", function(dets){
-    alert("Clicked");
+// document.querySelector(".nav").addEventListener("click", function(dets){
+//     alert("Clicked");
+// })
+
+let ul = document.querySelector("ul");
+
+ul.addEventListener("click", function(dets){
+    dets.target.style.textDecoration = "line-through";
 })
