@@ -32,8 +32,20 @@
 //     alert("Clicked");
 // })
 
-let ul = document.querySelector("ul");
+// let ul = document.querySelector("ul");
 
-ul.addEventListener("click", function(dets){
-    dets.target.style.textDecoration = "line-through";
+// ul.addEventListener("click", function(dets){
+//     dets.target.style.textDecoration = "line-through";
+// })
+let form = document.querySelector("form");
+let nam = document.querySelector(".nam");
+
+form.addEventListener("submit", function(dets){
+    dets.preventDefault();
+
+    if(nam.value.length <= 2){
+        document.querySelector(".hide").style.display = "initial";
+    }else{
+        document.querySelector(".hide").style.display = "none";
+    }
 })

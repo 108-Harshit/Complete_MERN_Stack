@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  color: #fff
+  color: #454242
 }
 
 html,
@@ -47,3 +47,10 @@ button{
   border-radius: 5px;
 } */
 
+.hide{
+    display:none;
+}
+
+p{
+    color:#e42e2e;
+}

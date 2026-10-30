@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #fff
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+body {
+  background-color: #111
+}
+
+input{
+    color: #111;
+}
+
+.main{
+    height:500px;
+    width: 500px;
+    background-color: darkseagreen;
+    font-family: monospace;
+    border-radius: 50%;
+    border:5px solid rgb(11, 174, 123);
+    padding:200px 0px 0px 130px;
+    text-decoration: wavy;
+}
